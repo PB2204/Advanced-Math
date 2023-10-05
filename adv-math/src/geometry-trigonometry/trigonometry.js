@@ -79,6 +79,48 @@ class Trigonometry {
         }
         return this.arctangent(1 / value);
     }
+
+    // Method to calculate the hyperbolic sine of an angle in degrees
+    static sinh(degrees) {
+        const radians = (degrees * Math.PI) / 180;
+        return Math.sinh(radians);
+    }
+
+    // Method to calculate the hyperbolic cosine of an angle in degrees
+    static cosh(degrees) {
+        const radians = (degrees * Math.PI) / 180;
+        return Math.cosh(radians);
+    }
+
+    // Method to calculate the hyperbolic tangent of an angle in degrees
+    static tanh(degrees) {
+        const radians = (degrees * Math.PI) / 180;
+        return Math.tanh(radians);
+    }
+
+    // Method to calculate the hyperbolic arcsine in degrees
+    static arsinh(value) {
+        const result = Math.asinh(value);
+        return (result * 180) / Math.PI;
+    }
+
+    // Method to calculate the hyperbolic arccosine in degrees
+    static arcosh(value) {
+        if (value < 1) {
+            throw new Error('Invalid input for arcosh.');
+        }
+        const result = Math.acosh(value);
+        return (result * 180) / Math.PI;
+    }
+
+    // Method to calculate the hyperbolic arctangent in degrees
+    static artanh(value) {
+        if (value < -1 || value > 1) {
+            throw new Error('Invalid input for artanh.');
+        }
+        const result = Math.atanh(value);
+        return (result * 180) / Math.PI;
+    }
 }
 
 module.exports = Trigonometry;
