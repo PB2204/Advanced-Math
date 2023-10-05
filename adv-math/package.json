@@ -1,5 +1,19 @@
 {
     "name": "adv-math",
+    "description" : "adv-math is a comprehensive JavaScript library that simplifies advanced mathematical calculations, covering a wide range of mathematical topics such as basic arithmetic, complex numbers, linear algebra, statistics, geometry, trigonometry, calculus, financial calculations, units and conversions, equation solvers, and math expression parsing. This library is designed to provide developers with powerful mathematical tools for various applications.",
+    "url": "https://github.com/PB2204/Advanced-Math",
+    "keywords": [
+        "JavaScript",
+        "Advanced Math",
+        "open-source",
+        "hacktoberfest",
+        "Mathematics"
+    ],
+    "author": "Pabitra Banerjee",
+    "contributors": [
+        "Pabitra Banerjee"
+    ],
+    "license": "MIT",
     "version": "1.0.0",
     "main": "index.js",
     "devDependencies": {
@@ -7,5 +21,9 @@
     },
     "scripts": {
         "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pb2204/Advanced-Math.git"
     }
 }
