@@ -146,10 +146,9 @@ For detailed documentation and usage examples, visit our [documentation](docs/).
 
 ## Developer Details
 
-- **Author:** [Your Name]
-- **Email:** [Your Email]
-- **GitHub:** [Your GitHub Profile]
-
+- **Author:** [Pabitra Banerjee](https://pabitrabanerjee.me)
+- **Email:** [Pabitra Banerjee](mailto:rockstarpabitra2204@gmail.com)
+- **GitHub:** [PB2204](https://github.com/PB2204)
 
 ## Happy Coding 🚀
 
