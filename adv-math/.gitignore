@@ -1,0 +1,26 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+
+# Dependency directories
+yarn-error.log
+.pnp
+.pnp.js
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Mac OS
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Cache of JetBrains IDEs
+.caches/
