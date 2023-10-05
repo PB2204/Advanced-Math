@@ -1,6 +1,3 @@
-Certainly! Here's a template for a beautiful `README.md` file for your `adv-math` project:
-
-```markdown
 # adv-math
 
 Advanced Mathematical Operations Library for JavaScript
