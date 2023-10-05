@@ -33,6 +33,19 @@ class Geometry {
     static equilateralTriangleArea(side) {
         return (Math.sqrt(3) / 4) * Math.pow(side, 2);
     }
+    //Method to calulate the area of the triangle given its side lengths
+    static triangleArea_sides(side1, side2, side3) {
+        const s = (side1 + side2 + side3) / 2;
+        return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
+    }
+    //Method to calulate the area of a square given its side length
+    static squareArea(side) {
+        return Math.pow(side, 2);
+    }
+    //Method to calculate the perimeter of a square given its side length
+    static squarePerimeter(side) {
+        return 4 * side;
+    }
 
     // Method to calculate the volume of a cube given its side length
     static cubeVolume(side) {
