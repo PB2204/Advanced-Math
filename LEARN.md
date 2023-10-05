@@ -71,7 +71,7 @@ The documentation provides in-depth information on how to use each module, avail
 
 ## Community and Support
 
-- **GitHub Repository**: [adv-math GitHub](https://github.com/your-username/adv-math)
+- **GitHub Repository**: [adv-math GitHub](https://github.com/pb2204/advanced-math)
 - **Issues**: If you encounter any issues or have questions, please open an issue on the GitHub repository.
 - **Contributing**: We welcome contributions from the community. Check the [Contributing Guidelines](CONTRIBUTING.md) to get started.
 
