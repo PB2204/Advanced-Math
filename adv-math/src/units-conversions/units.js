@@ -28,6 +28,17 @@ class Units {
       throw new Error("Invalid temperature unit conversion.");
     }
   }
+
+  // Method to convert weight units (e.g., kilograms to pounds)
+  static convertWeight(value, fromUnit, toUnit) {
+    if (fromUnit === "kilograms" && toUnit === "pounds") {
+      return value * 2.204623;
+    } else if (fromUnit === "pounds" && toUnit === "kilograms") {
+      return value * 0.4535924;
+    } else {
+      throw new Error("Invalid weight unit conversion.");
+    }
+  }
 }
 
 module.exports = Units;
