@@ -14,7 +14,7 @@
         "Pabitra Banerjee"
     ],
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "main": "index.js",
     "devDependencies": {
         "jest": "^29.7.0"
