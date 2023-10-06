@@ -46,5 +46,18 @@ describe("Units", () => {
     );
   });
 
+  test("converts kilograms to pounds", () => {
+    expect(Units.convertWeight(5, "kilograms", "pounds")).toBeCloseTo(
+      11.0231,
+      3
+    );
+  });
+  test("converts pounds to kilograms", () => {
+    expect(Units.convertWeight(10, "pounds", "kilograms")).toBeCloseTo(
+      4.5359,
+      3
+    );
+  });
+
   // Add more test cases as needed
 });
