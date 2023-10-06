@@ -12,6 +12,7 @@ const Equations = require('./equation-solvers/equations');
 const Parser = require('./expression-parsing/parser');
 const Random = require('./random/random');
 const Constants = require('./constants');
+const ExpressionEvaluator = require('./expression-evaluator/expression-evaluator');
 
 module.exports = {
   BasicMath,
@@ -28,5 +29,6 @@ module.exports = {
   Parser,
   Random,
   Constants,
+  ExpressionEvaluator,
   // Add other modules here
 };
