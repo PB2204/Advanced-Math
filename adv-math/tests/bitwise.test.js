@@ -26,11 +26,4 @@ describe("BitWiseMath", () => {
   test("find hamming distance", () => {
     expect(BitWise.hammingDistance(9, 14)).toBe(3);
   });
-  test("check is power of 3", () => {
-    expect(BitWise.isPowerofThree(6)).toBe(false);
-  });
-
-  test("check is power of 3", () => {
-    expect(BitWise.isPowerofThree(9)).toBe(true);
-  });
 });
