@@ -32,6 +32,8 @@
         ],
         "moduleNameMapper": {
             "^adv-math/(.*)$": "<rootDir>/src/$1"
-        }
+        },
+        "preset": "some-preset",
+        "testEnvironment": "node"
     }
 }
