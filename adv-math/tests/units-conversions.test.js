@@ -58,6 +58,17 @@ describe("Units", () => {
       3
     );
   });
-
+  test("converts litres to fluid ounces", () => {
+    expect(Units.convertVolume(1, "litres", "fluidOZ")).toBeCloseTo(
+      33.814,
+      2
+    );
+  });
+  test("converts fluid ounces to litres", () => {
+    expect(Units.convertVolume(100, "fluidOZ", "litres")).toBeCloseTo(
+      2.95735,
+      3
+    );
+  });
   // Add more test cases as needed
 });
