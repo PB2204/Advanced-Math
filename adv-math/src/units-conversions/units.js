@@ -39,6 +39,15 @@ class Units {
       throw new Error("Invalid weight unit conversion.");
     }
   }
+   static convertVolume(value, fromUnit, toUnit) {
+    if (fromUnit === "litres" && toUnit === "fluidOZ") {
+      return value * 33.814;
+    } else if (fromUnit === "fluidOZ" && toUnit === "litres") {
+      return value * 0.0295735;
+    } else {
+      throw new Error("Invalid volume unit conversion.");
+    }
+  }
 }
 
 module.exports = Units;
